@@ -1,4 +1,4 @@
-cd var cmd = require('node-cmd');
+var cmd = require('node-cmd');
 var path, node_ssh, ssh, fs;
 fs = require('fs');
 path = require('path');
@@ -85,7 +85,7 @@ function sshConnect() {
   ssh
     .connect({
       // TODO: ADD YOUR IP ADDRESS BELOW (e.g. '12.34.5.67')
-      host: '54.234.196.171',
+      host: '3.94.78.83',
       username: 'ubuntu',
       privateKey: 'hs-keytwo.pem'
     })
