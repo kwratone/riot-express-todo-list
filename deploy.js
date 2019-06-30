@@ -46,7 +46,7 @@ function transferProjectToRemote(failed, successful) {
   );
 }
 
-// creates a temporary folder on the remote server
+// creates a temporary folder on the remote servers
 function createRemoteTempFolder() {
   return ssh.execCommand(
     'rm -rf riot-express-todo-list-temp && mkdir riot-express-todo-list-temp', {
