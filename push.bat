@@ -1,3 +1,3 @@
 git add . --all
-git commit -m "travis zoom integration"
+git commit -m "fix deploy.js"
 git push origin master
