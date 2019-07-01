@@ -16,3 +16,5 @@ deploy:
     script: chmod +x ./deploy.sh && ./deploy.sh
     on:
       branch: master
+notifications:
+  slack: woz-u:WE2kIPK01EE7npZVZx842uMK
